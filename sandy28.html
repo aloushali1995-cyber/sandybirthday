@@ -1,0 +1,2434 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sandy ❤️</title>
+
+<style>
+
+*{
+
+box-sizing:border-box;
+
+margin:0;
+
+padding:0;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+background:#fff7fb;
+
+color:#633f4e;
+
+font-family:Arial,sans-serif;
+
+overflow-x:hidden;
+
+}
+
+button{
+
+font-family:inherit;
+
+}
+
+#opening{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+position:relative;
+
+overflow:hidden;
+
+text-align:center;
+
+background:
+
+radial-gradient(circle at 20% 20%,#ffe1eb,transparent 30%),
+
+radial-gradient(circle at 80% 80%,#f8d9e5,transparent 30%),
+
+linear-gradient(135deg,#fff,#fff5f9);
+
+}
+
+.open-card{
+
+position:relative;
+
+z-index:5;
+
+padding:40px 25px;
+
+width:100%;
+
+max-width:600px;
+
+animation:cardIn 1.5s ease;
+
+}
+
+@keyframes cardIn{
+
+from{
+
+opacity:0;
+
+transform:scale(.85) translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1) translateY(0);
+
+}
+
+}
+
+.small-title{
+
+font-size:11px;
+
+letter-spacing:5px;
+
+color:#b36e89;
+
+text-transform:uppercase;
+
+margin-bottom:20px;
+
+}
+
+.open-card h1{
+
+font-family:Georgia,serif;
+
+font-size:clamp(65px,18vw,120px);
+
+font-weight:normal;
+
+line-height:.85;
+
+color:#9d5875;
+
+}
+
+.open-card h2{
+
+font-family:Georgia,serif;
+
+font-style:italic;
+
+font-weight:normal;
+
+font-size:28px;
+
+margin-top:20px;
+
+color:#70495a;
+
+}
+
+.open-card p{
+
+font-size:14px;
+
+line-height:1.9;
+
+max-width:430px;
+
+margin:20px auto 35px;
+
+color:#8a6a76;
+
+}
+
+.open-btn{
+
+background:white;
+
+color:#a45e7a;
+
+border:1px solid #c98da4;
+
+border-radius:50px;
+
+padding:17px 45px;
+
+letter-spacing:4px;
+
+font-size:12px;
+
+cursor:pointer;
+
+box-shadow:0 12px 35px rgba(130,70,100,.12);
+
+transition:.4s;
+
+}
+
+.open-btn:hover{
+
+background:#a96782;
+
+color:white;
+
+transform:translateY(-4px);
+
+}
+
+.flower{
+
+position:absolute;
+
+font-size:45px;
+
+opacity:.7;
+
+animation:flowerMove 5s ease-in-out infinite;
+
+}
+
+.flower1{
+
+top:7%;
+
+left:5%;
+
+}
+
+.flower2{
+
+top:12%;
+
+right:5%;
+
+animation-delay:1s;
+
+}
+
+.flower3{
+
+bottom:8%;
+
+left:6%;
+
+animation-delay:2s;
+
+}
+
+.flower4{
+
+bottom:12%;
+
+right:6%;
+
+animation-delay:1.5s;
+
+}
+
+@keyframes flowerMove{
+
+0%,100%{
+
+transform:rotate(-6deg) translateY(0);
+
+}
+
+50%{
+
+transform:rotate(7deg) translateY(-10px);
+
+}
+
+}
+
+#mainContent{
+
+display:none;
+
+animation:mainIn 1.2s ease;
+
+}
+
+@keyframes mainIn{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+.section{
+
+max-width:1050px;
+
+margin:auto;
+
+padding:90px 20px;
+
+position:relative;
+
+}
+
+.hero{
+
+min-height:90vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+}
+
+.hero-inner{
+
+animation:heroFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes heroFloat{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-9px);
+
+}
+
+}
+
+.date{
+
+font-size:11px;
+
+letter-spacing:5px;
+
+color:#b87991;
+
+}
+
+.hero h1{
+
+font-family:Georgia,serif;
+
+font-size:clamp(70px,17vw,125px);
+
+font-weight:normal;
+
+line-height:.85;
+
+color:#965870;
+
+margin:25px 0;
+
+}
+
+.hero h1 span{
+
+display:block;
+
+font-family:Georgia,serif;
+
+font-size:28px;
+
+font-style:italic;
+
+margin-top:20px;
+
+color:#775362;
+
+}
+
+.hero p{
+
+max-width:500px;
+
+margin:auto;
+
+font-size:14px;
+
+line-height:2;
+
+color:#8d707c;
+
+}
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:45px;
+
+}
+
+.section-title span{
+
+display:block;
+
+font-size:10px;
+
+letter-spacing:4px;
+
+text-transform:uppercase;
+
+color:#b87991;
+
+margin-bottom:12px;
+
+}
+
+.section-title h2{
+
+font-family:Georgia,serif;
+
+font-size:50px;
+
+font-weight:normal;
+
+color:#7c5061;
+
+}
+
+.section-title p{
+
+max-width:550px;
+
+margin:12px auto;
+
+font-size:13px;
+
+line-height:1.8;
+
+color:#91727e;
+
+}
+
+.message-box{
+
+background:rgba(255,255,255,.8);
+
+border:1px solid #f0d9e2;
+
+border-radius:30px;
+
+padding:50px 25px;
+
+text-align:center;
+
+box-shadow:0 20px 60px rgba(120,70,90,.08);
+
+}
+
+.message-heart{
+
+font-size:40px;
+
+animation:heartBeat 1.5s infinite;
+
+margin-bottom:20px;
+
+}
+
+@keyframes heartBeat{
+
+0%,100%{
+
+transform:scale(1);
+
+}
+
+15%{
+
+transform:scale(1.25);
+
+}
+
+30%{
+
+transform:scale(1);
+
+}
+
+}
+
+.message-box p{
+
+font-family:Georgia,serif;
+
+font-size:24px;
+
+line-height:1.8;
+
+color:#704d5b;
+
+}
+
+.signature{
+
+margin-top:25px;
+
+font-family:Georgia,serif;
+
+font-style:italic;
+
+color:#b87991;
+
+}
+
+.special-section{
+
+max-width:850px;
+
+margin:auto;
+
+padding:100px 20px;
+
+text-align:center;
+
+}
+
+.special-image{
+
+width:100%;
+
+max-width:650px;
+
+margin:0 auto 35px;
+
+}
+
+.special-image img{
+
+width:100%;
+
+height:500px;
+
+object-fit:cover;
+
+display:block;
+
+border-radius:25px;
+
+box-shadow:0 20px 55px rgba(100,60,80,.14);
+
+}
+
+.special-content{
+
+background:rgba(255,255,255,.78);
+
+border:1px solid #f0d9e2;
+
+border-radius:30px;
+
+padding:45px 28px;
+
+box-shadow:0 20px 60px rgba(120,70,90,.07);
+
+}
+
+.special-content h2{
+
+font-family:Georgia,serif;
+
+font-size:45px;
+
+font-weight:normal;
+
+color:#7c5061;
+
+margin-bottom:25px;
+
+}
+
+.special-content p{
+
+font-family:Georgia,serif;
+
+font-size:21px;
+
+line-height:1.9;
+
+color:#715560;
+
+}
+
+.baby-section{
+
+background:linear-gradient(180deg,#fff7fa,#fff);
+
+}
+
+.baby-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:22px;
+
+align-items:center;
+
+}
+
+.baby-card{
+
+overflow:hidden;
+
+border-radius:130px 130px 25px 25px;
+
+border:6px solid white;
+
+box-shadow:0 18px 45px rgba(120,70,90,.12);
+
+transition:.6s;
+
+}
+
+.baby-card:nth-child(2){
+
+transform:translateY(-25px);
+
+}
+
+.baby-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.baby-card img{
+
+width:100%;
+
+height:370px;
+
+object-fit:cover;
+
+display:block;
+
+}
+
+.baby-text{
+
+text-align:center;
+
+margin-top:40px;
+
+}
+
+.baby-text h3{
+
+font-family:Georgia,serif;
+
+font-size:38px;
+
+font-weight:normal;
+
+color:#8c5c70;
+
+}
+
+.baby-text p{
+
+margin-top:10px;
+
+font-size:13px;
+
+color:#947782;
+
+}
+
+.memory-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:25px;
+
+}
+
+.memory-card{
+
+position:relative;
+
+overflow:hidden;
+
+border-radius:22px;
+
+box-shadow:0 15px 40px rgba(80,50,65,.12);
+
+}
+
+.memory-card img{
+
+width:100%;
+
+height:390px;
+
+object-fit:cover;
+
+display:block;
+
+transition:1s;
+
+}
+
+.memory-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.memory-overlay{
+
+position:absolute;
+
+bottom:0;
+
+left:0;
+
+right:0;
+
+padding:55px 20px 20px;
+
+background:linear-gradient(transparent,rgba(50,25,35,.75));
+
+color:white;
+
+}
+
+.memory-overlay h3{
+
+font-family:Georgia,serif;
+
+font-size:27px;
+
+font-weight:normal;
+
+}
+
+.letter{
+
+max-width:700px;
+
+margin:auto;
+
+background:#fffdf8;
+
+padding:60px 30px;
+
+border:1px solid #eadfd3;
+
+box-shadow:0 20px 60px rgba(100,70,50,.08);
+
+position:relative;
+
+transform:rotate(-1deg);
+
+}
+
+.letter:before{
+
+content:"❤️";
+
+position:absolute;
+
+left:50%;
+
+top:-27px;
+
+transform:translateX(-50%);
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:#d993ac;
+
+font-size:23px;
+
+}
+
+.letter h3{
+
+text-align:center;
+
+font-family:Georgia,serif;
+
+font-size:27px;
+
+font-weight:normal;
+
+margin-bottom:25px;
+
+color:#795765;
+
+}
+
+.letter p{
+
+font-family:Georgia,serif;
+
+font-size:21px;
+
+line-height:1.9;
+
+text-align:center;
+
+color:#715560;
+
+}
+
+.surprise-section{
+
+padding-bottom:130px;
+
+}
+
+.surprise-box{
+
+padding:70px 25px;
+
+border-radius:35px;
+
+text-align:center;
+
+background:
+
+radial-gradient(circle at 20% 20%,white,transparent 20%),
+
+linear-gradient(135deg,#fff0f5,#f8dce7);
+
+border:1px solid #efcbd9;
+
+}
+
+.surprise-box h2{
+
+font-family:Georgia,serif;
+
+font-size:52px;
+
+font-weight:normal;
+
+color:#8c536b;
+
+}
+
+.surprise-box p{
+
+font-size:13px;
+
+color:#856a74;
+
+margin:15px auto 30px;
+
+}
+
+.surprise-btn{
+
+border:0;
+
+background:#a96882;
+
+color:white;
+
+padding:17px 35px;
+
+border-radius:50px;
+
+letter-spacing:2px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.surprise-btn:hover{
+
+transform:scale(1.06);
+
+}
+
+footer{
+
+text-align:center;
+
+padding:35px 20px 50px;
+
+font-size:11px;
+
+letter-spacing:2px;
+
+color:#a3848e;
+
+}
+
+#languageBtn{
+
+position:fixed;
+
+top:18px;
+
+right:18px;
+
+z-index:200;
+
+background:rgba(255,255,255,.92);
+
+color:#9d5875;
+
+border:1px solid #d9a4b7;
+
+border-radius:30px;
+
+padding:10px 17px;
+
+font-size:11px;
+
+cursor:pointer;
+
+box-shadow:0 8px 25px rgba(100,50,80,.12);
+
+display:none;
+
+}
+
+#musicControl{
+
+position:fixed;
+
+top:18px;
+
+left:18px;
+
+z-index:200;
+
+background:rgba(255,255,255,.92);
+
+color:#9d5875;
+
+border:1px solid #d9a4b7;
+
+border-radius:30px;
+
+padding:10px 17px;
+
+font-size:11px;
+
+cursor:pointer;
+
+box-shadow:0 8px 25px rgba(100,50,80,.12);
+
+display:none;
+
+}
+
+#finalSurprise{
+
+display:none;
+
+position:fixed;
+
+inset:0;
+
+z-index:100;
+
+background:rgba(40,20,30,.97);
+
+color:white;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+padding:20px;
+
+overflow:hidden;
+
+}
+
+.final-content{
+
+position:relative;
+
+z-index:5;
+
+max-width:650px;
+
+animation:finalAppear 1.4s ease;
+
+}
+
+@keyframes finalAppear{
+
+from{
+
+opacity:0;
+
+transform:scale(.7);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+.final-content img{
+
+width:min(380px,80vw);
+
+height:470px;
+
+object-fit:cover;
+
+border:8px solid white;
+
+border-radius:18px;
+
+box-shadow:0 25px 80px rgba(0,0,0,.4);
+
+}
+
+.final-content h2{
+
+font-family:Georgia,serif;
+
+font-size:52px;
+
+font-weight:normal;
+
+margin:25px 0 8px;
+
+}
+
+.final-content p{
+
+font-family:Georgia,serif;
+
+font-size:18px;
+
+font-style:italic;
+
+line-height:1.7;
+
+}
+
+.close-surprise{
+
+margin-top:25px;
+
+background:transparent;
+
+color:white;
+
+border:1px solid rgba(255,255,255,.5);
+
+border-radius:30px;
+
+padding:12px 28px;
+
+cursor:pointer;
+
+}
+
+.floating-heart{
+
+position:fixed;
+
+bottom:-40px;
+
+z-index:50;
+
+pointer-events:none;
+
+animation:floatHeart linear forwards;
+
+}
+
+@keyframes floatHeart{
+
+0%{
+
+transform:translateY(0) rotate(0) scale(.6);
+
+opacity:0;
+
+}
+
+15%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-110vh) rotate(25deg) scale(1.2);
+
+opacity:0;
+
+}
+
+}
+
+.floating-balloon{
+
+position:fixed;
+
+bottom:-100px;
+
+width:43px;
+
+height:55px;
+
+border-radius:50%;
+
+z-index:40;
+
+pointer-events:none;
+
+animation:balloonFloat linear forwards;
+
+box-shadow:inset -7px -7px 12px rgba(100,40,70,.12);
+
+}
+
+.floating-balloon:after{
+
+content:"";
+
+position:absolute;
+
+width:1px;
+
+height:80px;
+
+background:#b98c9b;
+
+left:50%;
+
+top:54px;
+
+}
+
+@keyframes balloonFloat{
+
+0%{
+
+transform:translateY(0) rotate(-5deg);
+
+opacity:0;
+
+}
+
+15%{
+
+opacity:.9;
+
+}
+
+100%{
+
+transform:translateY(-120vh) translateX(50px) rotate(8deg);
+
+opacity:0;
+
+}
+
+}
+
+.sparkle{
+
+position:fixed;
+
+z-index:45;
+
+pointer-events:none;
+
+color:#e0a7ba;
+
+animation:sparkle 1.8s ease-in-out infinite;
+
+}
+
+@keyframes sparkle{
+
+0%,100%{
+
+opacity:.15;
+
+transform:scale(.5) rotate(0);
+
+}
+
+50%{
+
+opacity:1;
+
+transform:scale(1.3) rotate(90deg);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.special-section{
+
+padding:75px 18px;
+
+}
+
+.special-image img{
+
+height:430px;
+
+}
+
+.special-content{
+
+padding:38px 20px;
+
+}
+
+.special-content h2{
+
+font-size:38px;
+
+}
+
+.special-content p{
+
+font-size:19px;
+
+}
+
+.baby-grid{
+
+grid-template-columns:1fr;
+
+max-width:430px;
+
+margin:auto;
+
+}
+
+.baby-card:nth-child(2){
+
+transform:none;
+
+}
+
+.baby-card img{
+
+height:430px;
+
+}
+
+.memory-grid{
+
+grid-template-columns:1fr;
+
+max-width:430px;
+
+margin:auto;
+
+}
+
+.memory-card img{
+
+height:440px;
+
+}
+
+.section-title h2{
+
+font-size:43px;
+
+}
+
+.letter{
+
+padding:50px 20px;
+
+}
+
+.letter p{
+
+font-size:20px;
+
+}
+
+.final-content img{
+
+height:390px;
+
+}
+
+.final-content h2{
+
+font-size:43px;
+
+}
+
+#languageBtn{
+
+top:14px;
+
+right:12px;
+
+padding:9px 13px;
+
+}
+
+#musicControl{
+
+top:14px;
+
+left:12px;
+
+padding:9px 13px;
+
+}
+
+}
+
+@media(prefers-reduced-motion:reduce){
+
+*{
+
+animation-duration:.01ms!important;
+
+animation-iteration-count:1!important;
+
+scroll-behavior:auto!important;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section id="opening">
+
+<div class="flower flower1">
+
+🌸
+
+</div>
+
+<div class="flower flower2">
+
+🌷
+
+</div>
+
+<div class="flower flower3">
+
+🌹
+
+</div>
+
+<div class="flower flower4">
+
+🌸
+
+</div>
+
+<div class="open-card">
+
+<div class="small-title" data-en="A Little Surprise For You" data-ar="مفاجأة صغيرة لأجلك">
+
+A Little Surprise For You
+
+</div>
+
+<h1>
+
+Happy
+
+</h1>
+
+<h2 data-en="Birthday, Sandy ❤️" data-ar="عيد ميلاد سعيد، ساندي ❤️">
+
+Birthday, Sandy ❤️
+
+</h2>
+
+<p data-en="Today is a special day for a very special person. I made this little world just for you." data-ar="اليوم يوم مميز لشخص مميز جدًا. صنعت هذا العالم الصغير خصيصًا لأجلك.">
+
+Today is a special day for a very special person.
+
+I made this little world just for you.
+
+</p>
+
+<button class="open-btn" id="openBtn" data-en="OPEN" data-ar="افتحي">
+
+OPEN
+
+</button>
+
+</div>
+
+</section>
+
+
+<button id="languageBtn">
+
+العربية
+
+</button>
+
+<button id="musicControl">
+
+🔊 Music ON
+
+</button>
+
+
+<main id="mainContent">
+
+
+<section class="section hero">
+
+<div class="hero-inner">
+
+<div class="date" data-en="A SPECIAL DAY • A SPECIAL PERSON" data-ar="يوم مميز • لشخص مميز">
+
+A SPECIAL DAY • A SPECIAL PERSON
+
+</div>
+
+<h1>
+
+Sandy
+
+<span data-en="this little world is for you" data-ar="هذا العالم الصغير لكِ">
+
+this little world is for you
+
+</span>
+
+</h1>
+
+<p data-en="Today isn't just another day. It's a beautiful excuse to celebrate you, your smile, your heart, and all the beautiful moments that make our life special." data-ar="اليوم ليس مجرد يوم عادي. إنه فرصة جميلة لنحتفل بكِ، بابتسامتكِ، بقلبكِ، وبكل اللحظات الجميلة التي تجعل حياتنا مميزة.">
+
+Today isn't just another day.
+
+It's a beautiful excuse to celebrate you,
+
+your smile, your heart, and all the beautiful
+
+moments that make our life special.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="section-title">
+
+<span data-en="From My Heart" data-ar="من قلبي">
+
+From My Heart
+
+</span>
+
+<h2 data-en="A Little Message" data-ar="رسالة صغيرة">
+
+A Little Message
+
+</h2>
+
+</div>
+
+<div class="message-box">
+
+<div class="message-heart">
+
+❤️
+
+</div>
+
+<p data-en="Happy Birthday to someone who makes ordinary moments feel special. I hope this new year of your life brings you countless reasons to smile, beautiful memories, peaceful days, and everything your heart wishes for." data-ar="عيد ميلاد سعيد لشخص يجعل اللحظات العادية تبدو مميزة. أتمنى أن تحمل لكِ هذه السنة الجديدة من حياتكِ أسبابًا لا تنتهي للابتسام، وذكريات جميلة، وأيامًا هادئة، وكل ما يتمناه قلبكِ.">
+
+Happy Birthday to someone who makes
+
+ordinary moments feel special.
+
+<br><br>
+
+I hope this new year of your life brings
+
+you countless reasons to smile,
+
+beautiful memories, peaceful days,
+
+and everything your heart wishes for.
+
+</p>
+
+<div class="signature" data-en="With all my love ❤️" data-ar="مع كل حبي ❤️">
+
+With all my love ❤️
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WHY I LOVE YOU -->
+
+<section class="special-section">
+
+<div class="special-image">
+
+<img src="why.jpg" alt="Why I Love You">
+
+</div>
+
+<div class="special-content">
+
+<h2 data-en="Why I Love You ❤️" data-ar="لماذا أحبكِ ❤️">
+
+Why I Love You ❤️
+
+</h2>
+
+<p data-en="Because with you, I feel something words can never fully explain. You bring warmth to my heart, peace to my soul, and a kind of happiness that feels truly special. I love the little things about you, your smile, your heart, your presence, and the way you make ordinary moments feel beautiful."
+
+data-ar="لأنني معكِ أشعر بشيء لا تستطيع الكلمات أن تصفه بالكامل. أنتِ تمنحين قلبي الدفء، وروحي السلام، ونوعًا من السعادة أشعر أنه مميز حقًا. أحب تفاصيلكِ الصغيرة، ابتسامتكِ، قلبكِ، وجودكِ، والطريقة التي تجعلين بها اللحظات العادية تبدو جميلة.">
+
+Because with you, I feel something words can never fully explain.
+
+You bring warmth to my heart, peace to my soul,
+
+and a kind of happiness that feels truly special.
+
+I love the little things about you, your smile,
+
+your heart, your presence, and the way you make
+
+ordinary moments feel beautiful.
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- LETTER FOR YOU -->
+
+<section class="special-section">
+
+<div class="special-image">
+
+<img src="letter.jpg" alt="A Letter For You">
+
+</div>
+
+<div class="special-content">
+
+<h2 data-en="A Letter For You On This Special Day 💌"
+
+data-ar="رسالة لكِ في هذا اليوم المميز 💌">
+
+A Letter For You On This Special Day 💌
+
+</h2>
+
+<p data-en="Dear Sandy ❤️ Today is your special day, but somehow I feel like I am the lucky one. Having you in my life is something I will always be grateful for. I hope this new year of your life brings you beautiful moments, endless smiles, and everything your heart wishes for. Happy Birthday to someone who means more to me than words can say."
+
+data-ar="عزيزتي ساندي ❤️ اليوم هو يومكِ المميز، لكن بطريقة ما أشعر أنني أنا المحظوظ بوجودكِ في حياتي. وجودكِ إلى جانبي شيء سأبقى ممتنًا له دائمًا. أتمنى أن تحمل لكِ سنتكِ الجديدة أجمل اللحظات، وابتسامات لا تنتهي، وكل ما يتمناه قلبكِ. عيد ميلاد سعيد لشخص يعني لي أكثر مما تستطيع الكلمات أن تصف.">
+
+Dear Sandy ❤️
+
+<br><br>
+
+Today is your special day, but somehow I feel like I am the lucky one.
+
+Having you in my life is something I will always be grateful for.
+
+I hope this new year of your life brings you beautiful moments,
+
+endless smiles, and everything your heart wishes for.
+
+<br><br>
+
+Happy Birthday to someone who means more to me than words can say.
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ONE LAST THING -->
+
+<section class="special-section">
+
+<div class="special-image">
+
+<img src="last.jpg" alt="One Last Thing">
+
+</div>
+
+<div class="special-content">
+
+<h2 data-en="One Last Thing... ❤️"
+
+data-ar="شيء أخير... ❤️">
+
+One Last Thing... ❤️
+
+</h2>
+
+<p data-en="Before this little surprise comes to an end, I just want you to know that you are one of the most beautiful parts of my life. Every memory, every smile, and every moment with you means more to me than you know."
+
+data-ar="قبل أن تنتهي هذه المفاجأة الصغيرة، أريدكِ فقط أن تعرفي أنكِ واحدة من أجمل أجزاء حياتي. كل ذكرى، وكل ابتسامة، وكل لحظة معكِ تعني لي أكثر مما تتخيلين.">
+
+Before this little surprise comes to an end,
+
+I just want you to know that you are one of the most beautiful parts of my life.
+
+<br><br>
+
+Every memory, every smile, and every moment with you
+
+means more to me than you know.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section baby-section">
+
+<div class="section-title">
+
+<span data-en="Our Little World" data-ar="عالمنا الصغير">
+
+Our Little World
+
+</span>
+
+<h2 data-en="Our Little Princess 👶❤️" data-ar="أميرتنا الصغيرة 👶❤️">
+
+Our Little Princess 👶❤️
+
+</h2>
+
+<p data-en="The smallest hands can hold the biggest piece of our hearts." data-ar="أصغر الأيادي تستطيع أن تحمل أكبر جزء من قلوبنا.">
+
+The smallest hands can hold the biggest piece of our hearts.
+
+</p>
+
+</div>
+
+<div class="baby-grid">
+
+<div class="baby-card">
+
+<img src="baby1.jpg" alt="Our baby">
+
+</div>
+
+<div class="baby-card">
+
+<img src="baby2.jpg" alt="Our baby">
+
+</div>
+
+<div class="baby-card">
+
+<img src="baby3.jpg" alt="Our baby">
+
+</div>
+
+</div>
+
+<div class="baby-text">
+
+<h3 data-en="Our Little Happiness" data-ar="سعادتنا الصغيرة">
+
+Our Little Happiness
+
+</h3>
+
+<p data-en="Seven months of tiny smiles, little hands and a love bigger than words. And our little princess is here too, wishing her mommy a very Happy Birthday. ❤️"
+
+data-ar="سبعة أشهر من الابتسامات الصغيرة، والأيادي الصغيرة، وحب أكبر من الكلمات. وأميرتنا الصغيرة هنا أيضًا لتعايدكِ وتتمنى لكِ عيد ميلاد سعيدًا يا ماما. ❤️">
+
+Seven months of tiny smiles,
+
+little hands and a love bigger than words.
+
+<br><br>
+
+And our little princess is here too,
+
+wishing her mommy a very Happy Birthday. ❤️
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="section-title">
+
+<span data-en="Our Memories" data-ar="ذكرياتنا">
+
+Our Memories
+
+</span>
+
+<h2 data-en="Beautiful Memories" data-ar="ذكريات جميلة">
+
+Beautiful Memories
+
+</h2>
+
+<p data-en="Some moments deserve their own little corner." data-ar="بعض اللحظات تستحق أن يكون لها ركنها الصغير الخاص.">
+
+Some moments deserve their own little corner.
+
+</p>
+
+</div>
+
+<div class="memory-grid">
+
+<div class="memory-card">
+
+<img src="memory1.jpg" alt="Memory one">
+
+<div class="memory-overlay">
+
+<h3 data-en="That moment... ❤️" data-ar="تلك اللحظة... ❤️">
+
+That moment... ❤️
+
+</h3>
+
+</div>
+
+</div>
+
+<div class="memory-card">
+
+<img src="memory2.jpg" alt="Memory two">
+
+<div class="memory-overlay">
+
+<h3 data-en="Another beautiful memory" data-ar="ذكرى جميلة أخرى">
+
+Another beautiful memory
+
+</h3>
+
+</div>
+
+</div>
+
+<div class="memory-card">
+
+<img src="memory3.jpg" alt="Memory three">
+
+<div class="memory-overlay">
+
+<h3 data-en="And many more to come..." data-ar="والكثير من الذكريات القادمة...">
+
+And many more to come...
+
+</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="section-title">
+
+<span data-en="A Few Words" data-ar="بضع كلمات">
+
+A Few Words
+
+</span>
+
+<h2 data-en="For You" data-ar="لكِ">
+
+For You
+
+</h2>
+
+</div>
+
+<div class="letter">
+
+<h3 data-en="Dear Sandy ❤️" data-ar="عزيزتي ساندي ❤️">
+
+Dear Sandy ❤️
+
+</h3>
+
+<p data-en="If I could give you one thing today, it would be the ability to see yourself through my eyes. Then you would know just how special you are, how much your presence means, and how beautiful our little family is. Happy Birthday, my love. Here's to another year of memories, laughter, love and our little adventures."
+
+data-ar="لو كان بإمكاني أن أهديكِ شيئًا واحدًا اليوم، لأهديتكِ القدرة على رؤية نفسكِ من خلال عيني. عندها ستعرفين كم أنتِ مميزة، وكم يعني لي وجودكِ، وكم هي جميلة عائلتنا الصغيرة. عيد ميلاد سعيد يا حبيبتي. وإلى سنة جديدة مليئة بالذكريات، والضحكات، والحب، ومغامراتنا الصغيرة.">
+
+If I could give you one thing today,
+
+it would be the ability to see yourself
+
+through my eyes.
+
+<br><br>
+
+Then you would know just how special you are,
+
+how much your presence means,
+
+and how beautiful our little family is.
+
+<br><br>
+
+Happy Birthday, my love.
+
+Here's to another year of memories,
+
+laughter, love and our little adventures.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section surprise-section">
+
+<div class="surprise-box">
+
+<div class="section-title">
+
+<span data-en="One Last Thing..." data-ar="شيء أخير...">
+
+One Last Thing...
+
+</span>
+
+<h2 data-en="Are You Ready? 🎁" data-ar="هل أنتِ مستعدة؟ 🎁">
+
+Are You Ready? 🎁
+
+</h2>
+
+</div>
+
+<p data-en="There is one last little surprise waiting for you..." data-ar="هناك مفاجأة صغيرة أخيرة بانتظاركِ...">
+
+There is one last little surprise waiting for you...
+
+</p>
+
+<button class="surprise-btn" id="surpriseBtn" data-en="LAST SURPRISE 🎁" data-ar="المفاجأة الأخيرة 🎁">
+
+LAST SURPRISE 🎁
+
+</button>
+
+</div>
+
+</section>
+
+
+<footer data-en="MADE WITH ❤️ FOR SANDY" data-ar="صُنِعَ بكل ❤️ من أجل ساندي">
+
+MADE WITH ❤️ FOR SANDY
+
+</footer>
+
+</main>
+
+
+<div id="finalSurprise">
+
+<div class="final-content">
+
+<img src="lastsuprise.jpg" alt="Sandy">
+
+<h2 data-en="Happy Birthday ❤️" data-ar="عيد ميلاد سعيد ❤️">
+
+Happy Birthday ❤️
+
+</h2>
+
+<p data-en="May your smile always be this beautiful. And may our story keep creating beautiful memories."
+
+data-ar="أتمنى أن تبقى ابتسامتكِ جميلة هكذا دائمًا. وأن تستمر قصتنا بصنع أجمل الذكريات.">
+
+May your smile always be this beautiful.
+
+<br>
+
+And may our story keep creating beautiful memories.
+
+</p>
+
+<button class="close-surprise" id="closeSurprise" data-en="Close" data-ar="إغلاق">
+
+Close
+
+</button>
+
+</div>
+
+</div>
+
+
+<audio id="birthdayMusic" preload="auto">
+
+<source src="musicsandy.mp3" type="audio/mpeg">
+
+</audio>
+
+
+<script>
+
+const openBtn=document.getElementById("openBtn");
+
+const opening=document.getElementById("opening");
+
+const mainContent=document.getElementById("mainContent");
+
+const music=document.getElementById("birthdayMusic");
+
+const surpriseBtn=document.getElementById("surpriseBtn");
+
+const finalSurprise=document.getElementById("finalSurprise");
+
+const closeSurprise=document.getElementById("closeSurprise");
+
+const languageBtn=document.getElementById("languageBtn");
+
+const musicControl=document.getElementById("musicControl");
+
+let musicStarted=false;
+
+let currentLanguage="en";
+
+let musicOn=true;
+
+
+function startMusic(){
+
+if(musicStarted){
+
+return;
+
+}
+
+music.volume=.65;
+
+try{
+
+music.currentTime=20;
+
+}catch(error){}
+
+const playPromise=music.play();
+
+if(playPromise){
+
+playPromise.then(function(){
+
+musicStarted=true;
+
+musicOn=true;
+
+updateMusicButton();
+
+}).catch(function(){
+
+musicStarted=false;
+
+musicOn=false;
+
+updateMusicButton();
+
+});
+
+}
+
+}
+
+
+function updateMusicButton(){
+
+if(currentLanguage==="en"){
+
+if(musicOn){
+
+musicControl.innerHTML="🔊 Music ON";
+
+}else{
+
+musicControl.innerHTML="🔇 Music OFF";
+
+}
+
+}else{
+
+if(musicOn){
+
+musicControl.innerHTML="🔊 الموسيقى تعمل";
+
+}else{
+
+musicControl.innerHTML="🔇 الموسيقى متوقفة";
+
+}
+
+}
+
+}
+
+
+function setLanguage(){
+
+const elements=document.querySelectorAll("[data-en][data-ar]");
+
+elements.forEach(function(element){
+
+if(currentLanguage==="ar"){
+
+element.innerHTML=element.getAttribute("data-ar");
+
+}else{
+
+element.innerHTML=element.getAttribute("data-en");
+
+}
+
+});
+
+if(currentLanguage==="ar"){
+
+document.documentElement.lang="ar";
+
+document.body.dir="rtl";
+
+languageBtn.innerHTML="English";
+
+}else{
+
+document.documentElement.lang="en";
+
+document.body.dir="ltr";
+
+languageBtn.innerHTML="العربية";
+
+}
+
+updateMusicButton();
+
+}
+
+
+languageBtn.addEventListener("click",function(){
+
+if(currentLanguage==="en"){
+
+currentLanguage="ar";
+
+}else{
+
+currentLanguage="en";
+
+}
+
+setLanguage();
+
+});
+
+
+musicControl.addEventListener("click",function(){
+
+if(music.paused){
+
+music.play().then(function(){
+
+musicOn=true;
+
+musicStarted=true;
+
+updateMusicButton();
+
+}).catch(function(){
+
+musicOn=false;
+
+updateMusicButton();
+
+});
+
+}else{
+
+music.pause();
+
+musicOn=false;
+
+updateMusicButton();
+
+}
+
+});
+
+
+openBtn.addEventListener("click",function(){
+
+startMusic();
+
+opening.style.transition="1.2s ease";
+
+opening.style.opacity="0";
+
+opening.style.transform="scale(1.04)";
+
+setTimeout(function(){
+
+opening.style.display="none";
+
+mainContent.style.display="block";
+
+languageBtn.style.display="block";
+
+musicControl.style.display="block";
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+createHeartBurst();
+
+createBalloonBurst();
+
+},1000);
+
+});
+
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="floating-heart";
+
+const hearts=[
+
+"❤️",
+
+"💕",
+
+"💗",
+
+"💖",
+
+"💞",
+
+"🌸",
+
+"🌹"
+
+];
+
+heart.innerHTML=
+
+hearts[Math.floor(Math.random()*hearts.length)];
+
+heart.style.left=
+
+Math.random()*100+"vw";
+
+heart.style.fontSize=
+
+(14+Math.random()*24)+"px";
+
+heart.style.animationDuration=
+
+(5+Math.random()*5)+"s";
+
+document.body.appendChild(heart);
+
+setTimeout(function(){
+
+heart.remove();
+
+},11000);
+
+}
+
+
+function createHeartBurst(){
+
+for(let i=0;i<20;i++){
+
+setTimeout(function(){
+
+createHeart();
+
+},i*120);
+
+}
+
+}
+
+
+function createBalloon(){
+
+const balloon=document.createElement("div");
+
+balloon.className="floating-balloon";
+
+balloon.style.left=
+
+Math.random()*100+"vw";
+
+const balloonColors=[
+
+"#f3b2c9",
+
+"#f7d3df",
+
+"#e9a0ba",
+
+"#f5c9d7"
+
+];
+
+balloon.style.background=
+
+balloonColors[
+
+Math.floor(Math.random()*balloonColors.length)
+
+];
+
+balloon.style.animationDuration=
+
+(8+Math.random()*6)+"s";
+
+document.body.appendChild(balloon);
+
+setTimeout(function(){
+
+balloon.remove();
+
+},16000);
+
+}
+
+
+function createBalloonBurst(){
+
+for(let i=0;i<10;i++){
+
+setTimeout(function(){
+
+createBalloon();
+
+},i*250);
+
+}
+
+}
+
+
+setInterval(function(){
+
+if(mainContent.style.display==="block"){
+
+if(Math.random()>.35){
+
+createHeart();
+
+}
+
+if(Math.random()>.78){
+
+createBalloon();
+
+}
+
+}
+
+},1300);
+
+
+function createSparkle(){
+
+const sparkle=document.createElement("div");
+
+sparkle.className="sparkle";
+
+sparkle.innerHTML="✦";
+
+sparkle.style.left=
+
+Math.random()*100+"vw";
+
+sparkle.style.top=
+
+Math.random()*100+"vh";
+
+sparkle.style.fontSize=
+
+(10+Math.random()*17)+"px";
+
+sparkle.style.animationDelay=
+
+Math.random()*2+"s";
+
+document.body.appendChild(sparkle);
+
+setTimeout(function(){
+
+sparkle.remove();
+
+},4000);
+
+}
+
+
+setInterval(createSparkle,800);
+
+
+surpriseBtn.addEventListener("click",function(){
+
+finalSurprise.style.display="flex";
+
+document.body.style.overflow="hidden";
+
+createHeartBurst();
+
+createBalloonBurst();
+
+for(let i=0;i<15;i++){
+
+setTimeout(function(){
+
+createBalloon();
+
+},i*180);
+
+}
+
+});
+
+
+closeSurprise.addEventListener("click",function(){
+
+finalSurprise.style.display="none";
+
+document.body.style.overflow="";
+
+});
+
+
+setLanguage();
+
+</script>
+
+</body>
+
+</html>
